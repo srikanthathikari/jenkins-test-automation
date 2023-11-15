@@ -5,7 +5,7 @@ exports.config = {
     services: [
       [
         'browserstack',
-        { browserstackLocal: true, opts: { forcelocal: false } },
+        { testObservability: false, browserstackLocal: true, opts: { forcelocal: false } },
       ],
     ],
     // add path to the test file
